@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta cahraset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>AC6アセンシミュレータ</title>
+    <meta name="description" content="アーマード・コア6のアセンブルシミュレータ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries-js"></script>
+</head>
+
+<body>
+    <header></header>
+    <article>
+        <h1>AC6アセンシミュレータ</h1>
+        <h2></h2>
+        <section パーツ選択のエリア>
+            <div>パーツ選択</div>
+            <div id="parts_select_area"></div>
+        </section>
+        <br>
+        <section スペックのエリア>
+            <div>スペック</div>
+            <div id="spec_sheet_area"></div>
+        </section>
+        <br>
+        <section パーツリストのエリア>
+            <div class="partstables">
+                <div id="parts_list_area"></div>
+            </div>
+        </section>
+        </div>
+        <section ver表示のエリア>
+            <div class="yoko">ver:<div id="out_ver"></div>
+            </div>
+        </section>
+    </article>
+    <footer></footer>
+</body>
+
+<!--書き出し先タグなど読んでからscript実行するために末尾におく-->
+<script type="text/javascript" src="js/temporary.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</html>

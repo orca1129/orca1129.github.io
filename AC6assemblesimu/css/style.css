@@ -1,0 +1,9 @@
+.yoko{
+    display: flex;
+}
+
+.partstables{
+    display: inline;
+    /*display: none;*/
+    font-size: small;
+}
